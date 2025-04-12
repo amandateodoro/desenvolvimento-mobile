@@ -5,7 +5,7 @@ export default function DetailsScreen({ navigation }) {
     return(
         <View>
             <Text><h1>Tela Detalhes!</h1></Text>
-            <Button title="Voltar" onPress={()=>{navigation.navigate.goBack()}}></Button>
+            <Button title="Voltar" onPress={()=>{navigation.goBack()}}></Button>
         </View>
     )
 }
