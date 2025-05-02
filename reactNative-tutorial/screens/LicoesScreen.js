@@ -25,14 +25,6 @@ export default function LicoesScreen({ navigation }) {
 
             <View style={styles.buttonContainer}>
                 <Button
-                    title="States e Props"
-                    color="#3d3d3d"
-                    onPress={() => navigation.navigate('StatesProps')}
-                />
-            </View>
-
-            <View style={styles.buttonContainer}>
-                <Button
                     title="Estilização Simples"
                     color="#3d3d3d"
                     onPress={() => navigation.navigate('EstilizacaoSimples')}

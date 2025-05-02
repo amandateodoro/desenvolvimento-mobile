@@ -7,7 +7,6 @@ import HomeScreen from './screens/HomeScreen';
 import LicoesScreen from './screens/LicoesScreen';
 import Explicacao from './screens/Explicacao';
 import ComponentesBasicos from './screens/ComponentesBasicos';
-import StatesProps from './screens/StatesProps';
 import EstilizacaoSimples from './screens/EstilizacaoSimples';
 
 const Stack = createNativeStackNavigator();
@@ -24,7 +23,6 @@ export default function App() {
         <Stack.Screen name="Licoes" component={LicoesScreen} options={{ title: 'Lições' }} />
         <Stack.Screen name="Explicacao" component={Explicacao} options={{ title: 'O que é React Native?' }} />
         <Stack.Screen name="ComponentesBasicos" component={ComponentesBasicos} options={{ title: 'Componentes Básicos' }} />
-        <Stack.Screen name="StatesProps" component={StatesProps} options={{ title: 'States e Props' }} />
         <Stack.Screen name="EstilizacaoSimples" component={EstilizacaoSimples} options={{ title: 'Estilização Simples' }} />
       </Stack.Navigator>
       <StatusBar style="light" />
