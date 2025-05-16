@@ -2,10 +2,10 @@ import React from "react";
 import { View, Text } from "react-native";
 
 export default function ResultImc(props) {
-    return(
+    return (
         <View>
-            <Text>{props.ResultImc}</Text>
-            <Text>{props.messageResulImc} </Text>
+            <Text>{props.messageResultImc}</Text>
+            {props.ResultImc ? <Text>{props.ResultImc}</Text> : null}
         </View>
     );
 }
