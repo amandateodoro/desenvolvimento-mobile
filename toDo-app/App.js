@@ -1,10 +1,11 @@
 import { StyleSheet, Text, View } from 'react-native';
-import Main from './Components/CreateTask';
+import TabelaExemplo from './Components/TabelaExemplo';
+import ToDoList from './Components/ToDoList';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Main/>
+      <ToDoList/>
     </View>
   );
 }
