@@ -162,7 +162,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#121212', // fundo escuro
+    backgroundColor: '#121212',
     padding: 20,
     justifyContent: 'center',
   },
@@ -171,34 +171,34 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     marginBottom: 20,
     textAlign: 'center',
-    color: '#FFFFFF', // texto claro
+    color: '#FFFFFF',
   },
   input: {
     height: 50,
-    borderColor: '#444', // borda mais discreta no dark
+    borderColor: '#444',
     borderWidth: 1,
     marginBottom: 15,
     paddingHorizontal: 10,
     borderRadius: 8,
-    color: '#FFFFFF', // texto digitado
-    backgroundColor: '#1E1E1E', // fundo do input escuro
+    color: '#FFFFFF',
+    backgroundColor: '#1E1E1E',
   },
   resultado: {
     marginTop: 20,
     fontSize: 18,
     textAlign: 'center',
     fontWeight: 'bold',
-    color: '#BB86FC', // roxo claro para destaque no dark
+    color: '#BB86FC',
   },
   botao: {
-  backgroundColor: '#BB86FC', // um roxo claro bonito no modo escuro
+  backgroundColor: '#BB86FC',
   paddingVertical: 15,
   borderRadius: 8,
   alignItems: 'center',
   marginTop: 10,
 },
 textoBotao: {
-  color: '#121212', // texto escuro no botão roxo
+  color: '#121212',
   fontSize: 16,
   fontWeight: 'bold',
 }
