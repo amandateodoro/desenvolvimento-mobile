@@ -1,31 +1,31 @@
-##📱 CodeQuiz - Aplicativo de Quiz Educativo
-###Este é um aplicativo mobile desenvolvido em React Native para a disciplina de Desenvolvimento Mobile. O app tem como objetivo proporcionar uma experiência divertida e educativa por meio de quizzes com múltiplas categorias.
+📱 CodeQuiz - Aplicativo de Quiz Educativo
+Este é um aplicativo mobile desenvolvido em React Native para a disciplina de Desenvolvimento Mobile. O app tem como objetivo proporcionar uma experiência divertida e educativa por meio de quizzes com múltiplas categorias.
 
-##📌 Funcionalidades
-###4 categorias de quiz:
+📌 Funcionalidades
+4 categorias de quiz:
 
-####React Native
+React Native
 
-####JavaScript
+JavaScript
 
-####HTML & CSS
+HTML & CSS
 
-####Lógica de Programação
+Lógica de Programação
 
-###10 perguntas por categoria
+10 perguntas por categoria
 
-###Sistema de pontuação
+Sistema de pontuação
 
-###Resultado final com pontuação
+Resultado final com pontuação
 
-##🛠️ Tecnologias Utilizadas
-###React Native
+🛠️ Tecnologias Utilizadas
+React Native
 
-###Expo
+Expo
 
-###JavaScript
+JavaScript
 
-###Componentes nativos do React Native
+Componentes nativos do React Native
 
 
 👩‍💻 Autor
