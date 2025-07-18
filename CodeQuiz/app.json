@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "code-quiz",
-    "slug": "code-quiz",
-    "version": "1.0.0",
+    "name": "CodeQuiz",
+    "slug": "CodeQuiz",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -20,10 +20,20 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.aamand4.CodeQuiz",
+      "versionCode": 2
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "6bef4dc3-e312-478c-bbf7-2e7ad293bce7"
+      }
     }
   }
 }
